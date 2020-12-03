@@ -10,7 +10,7 @@
 ### User registration algorithm:
 <li>The user sends a POST request with the email parameter to / api/v1/auth/email/.
 <li>YaMDB sends an email with a confirmation code (confirmation_code) to the email address.
-<li>The user sends a POST request with the email and confirmation_code parameters to /api/v1/auth/token/, and receives a token (JWT token) in response to the request.</li>
+<li>The user sends a POST request with the email and confirmation_code parameters to /api/v1/auth/token/, and receives a token (JWT token) in response to the request.
 
 The project is based on the Django Framework. To run it on a local machine, use the command: python manage.py runserver.
 Detailed API documentation is available at the local address 127.0.0.1/redoc.
